@@ -26,7 +26,7 @@ This Hugo theme was ported from [Bootstrapious](http://bootstrapious.com/p/unive
   * [Landing page](#landing-page)
     * [Carousel](#carousel)
     * [Features](#features)
-    * [Testimonials](#testimonials)
+    * [profile](#profile)
     * [See more](#see-more)
     * [Clients](#clients)
     * [Recent posts](#recent-posts)
@@ -41,7 +41,7 @@ This Hugo theme was ported from [Bootstrapious](http://bootstrapious.com/p/unive
 * Responsive design
 * Customizable landing page
   * Carousel
-  * Testimonials
+  * profile
   * Features
   * Customers
   * Recent posts
@@ -289,13 +289,13 @@ Once you have completed your features, enable them in the `config.toml` file.
     enable = true
 ```
 
-#### Testimonials
+#### profile
 
-Testimonials are defined in the `data` directory.
+profile are defined in the `data` directory.
 
 ```
 data
-└── testimonials
+└── profile
     ├── 1.yaml
     ├── 2.yaml
     ├── 3.yaml
@@ -303,21 +303,21 @@ data
     └── 5.yaml
 ```
 
-You can add as many testimonials files as you want. Be sure you fill in all fields as in the following example.
+You can add as many profile files as you want. Be sure you fill in all fields as in the following example.
 
 ```yaml
 text: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections."
 name: "John McIntyre"
 position: "CEO, TransTech"
-avatar: "img/testimonials/person-1.jpg"
+avatar: "img/profile/person-1.jpg"
 ```
 
 Then, enable it in the configuration file and add a title and subtitle.
 
 ```toml
-[params.testimonials]
+[params.profile]
     enable = true
-    title = "Testimonials"
+    title = "profile"
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 ```
 
@@ -380,7 +380,7 @@ The recent posts sections shows the four latest published news posts, with their
 You can enable it in the configuration file.
 
 ```toml
-[params.recent_posts]
+[params.recent_news]
     enable = true
     title = "From our news"
     subtitle = "Pellen

@@ -1,23 +1,22 @@
-{{ if isset .Site.Params "recent_news" }}
-{{ if .Site.Params.recent_news.enable }}
+{{ if isset .Site.Params "recent_schedule" }}
+{{ if .Site.Params.recent_schedule.enable }}
 <section class="bar background-white no-mb">
     <div class="container">
 
         <div class="col-md-12">
             <div class="heading text-center">
-                <h2>{{ .Site.Params.recent_news.title }}</h2>
+                <h2>{{ .Site.Params.recent_schedule.title }}</h2>
             </div>
 
             <p class="lead">
-              {{ .Site.Params.recent_news.subtitle | markdownify }}
+              {{ .Site.Params.recent_schedule.subtitle | markdownify }}
             </p>
 
-            <!-- *** news HOMEPAGE *** -->
+            <!-- *** schedule HOMEPAGE *** -->
 
             <div class="row">
 
-                {{ $posts := .Paginate (where .Data.Pages "Type" "news") }}
-                {{ range first 4 $posts.Pages }}
+                {{ range first 4 (where .Data.Pages "Type" "schedule") }}
                 <div class="col-md-3 col-sm-6">
                     <div class="box-image-text news">
                         <div class="top">

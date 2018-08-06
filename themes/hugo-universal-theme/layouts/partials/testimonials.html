@@ -1,24 +1,24 @@
-{{ if isset .Site.Params "testimonials" }}
-{{ if .Site.Params.testimonials.enable }}
-{{ if gt (len .Site.Data.testimonials) 0 }}
+{{ if isset .Site.Params "profile" }}
+{{ if .Site.Params.profile.enable }}
+{{ if gt (len .Site.Data.profile) 0 }}
 <section class="bar background-pentagon no-mb">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="heading text-center">
-                    <h2>{{ .Site.Params.testimonials.title }}</h2>
+                    <h2>{{ .Site.Params.profile.title }}</h2>
                 </div>
 
                 <p class="lead">
-                  {{ .Site.Params.testimonials.subtitle | markdownify }}
+                  {{ .Site.Params.profile.subtitle | markdownify }}
                 </p>
 
-                <!-- *** TESTIMONIALS CAROUSEL *** -->
+                <!-- *** profile CAROUSEL *** -->
 
-                <ul class="owl-carousel testimonials same-height-row">
-                    {{ range .Site.Data.testimonials }}
+                <ul class="owl-carousel profile same-height-row">
+                    {{ range .Site.Data.profile }}
                     <li class="item">
-                        <div class="testimonial same-height-always">
+                        <div class="profile same-height-always">
                             <div class="text">
                                 <p>{{ .text | markdownify }}</p>
                             </div>
@@ -37,7 +37,7 @@
                 </ul>
                 <!-- /.owl-carousel -->
 
-                <!-- *** TESTIMONIALS CAROUSEL END *** -->
+                <!-- *** profile CAROUSEL END *** -->
             </div>
 
         </div>

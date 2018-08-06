@@ -141,12 +141,12 @@ paginate = 10
     # at 'exampleSite/data/features'.
     # For more informtion take a look at the README.
 
-[params.testimonials]
+[params.profile]
     enable = true
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
+    # All profile are defined in their own files. You can find example items
+    # at 'exampleSite/data/profile'.
     # For more informtion take a look at the README.
-    title = "Testimonials"
+    title = "profile"
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
@@ -165,7 +165,7 @@ paginate = 10
     title = "Our Clients"
     subtitle = ""
 
-[params.recent_posts]
+[params.recent_news]
     enable = true
     title = "From our news"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."

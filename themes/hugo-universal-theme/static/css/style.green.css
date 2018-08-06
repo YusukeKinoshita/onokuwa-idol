@@ -1249,11 +1249,11 @@ fieldset[disabled] .btn-template-primary.active {
   filter: none;
   -webkit-filter: none;
 }
-.testimonials {
+.profile {
   padding: 0;
   margin-bottom: 40px;
 }
-.testimonials .item {
+.profile .item {
   list-style-type: none;
   margin: 0 5px;
   background: #fff;
@@ -1262,31 +1262,31 @@ fieldset[disabled] .btn-template-primary.active {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.testimonials .item .testimonial {
+.profile .item .profile {
   position: relative;
   padding: 20px;
 }
-.testimonials .item .testimonial:before,
-.testimonials .item .testimonial:after {
+.profile .item .profile:before,
+.profile .item .profile:after {
   content: " ";
   display: table;
 }
-.testimonials .item .testimonial:after {
+.profile .item .profile:after {
   clear: both;
 }
-.testimonials .item .testimonial:before,
-.testimonials .item .testimonial:after {
+.profile .item .profile:before,
+.profile .item .profile:after {
   content: " ";
   display: table;
 }
-.testimonials .item .testimonial:after {
+.profile .item .profile:after {
   clear: both;
 }
-.testimonials .item .testimonial .text {
+.profile .item .profile .text {
   color: #999999;
   margin-bottom: 40px;
 }
-.testimonials .item .testimonial .bottom {
+.profile .item .profile .bottom {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1297,28 +1297,28 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 20px;
   height: 50px;
 }
-.testimonials .item .testimonial .bottom .icon {
+.profile .item .profile .bottom .icon {
   color: #6aae7a;
   font-size: 30px;
   float: left;
   width: 20%;
 }
-.testimonials .item .testimonial .name-picture {
+.profile .item .profile .name-picture {
   float: right;
   width: 80%;
   text-align: right;
 }
-.testimonials .item .testimonial .name-picture h5 {
+.profile .item .profile .name-picture h5 {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
-.testimonials .item .testimonial .name-picture p {
+.profile .item .profile .name-picture p {
   color: #999999;
   margin: 0;
   font-size: 12px;
 }
-.testimonials .item .testimonial .name-picture img {
+.profile .item .profile .name-picture img {
   float: right;
   width: 60px;
   border-radius: 30px;
