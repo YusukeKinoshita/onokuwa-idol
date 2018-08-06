@@ -1,7 +1,7 @@
 baseurl = "https://example.org"
 title = "Universal"
 theme = "hugo-universal-theme"
-themesDir = "themes"
+themesDir = "../.."
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
@@ -18,19 +18,19 @@ paginate = 10
 # Main menu
 
 [[menu.main]]
-    name = "News"
-    url  = "/news/"
+    name = "Home"
+    url  = "/"
     weight = 1
 
 [[menu.main]]
-    name = "Schedule"
-    url  = "/schedule/"
+    name = "news"
+    url  = "/news/"
     weight = 2
 
 [[menu.main]]
-    name = "Profile"
-    identifier = "profile"
-    url  = "/profile/"
+    name = "FAQ"
+    identifier = "faq"
+    url  = "/faq/"
     weight = 3
 
 [[menu.main]]
