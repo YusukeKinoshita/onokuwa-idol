@@ -1,8 +1,8 @@
 +++
-title = "【オフィシャルグッズ販売のお知らせ】乃木坂46 真夏の全国ツアー2018 大阪公演"
+title = "Migrate from Jekyll"
 date = "2015-10-10T13:07:31+02:00"
 tags = ["ipsum"]
-categories = ["LIVE/EVENT"]
+categories = ["OTHER"]
 banner = "img/banners/banner-5.jpg"
 +++
 

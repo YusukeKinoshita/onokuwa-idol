@@ -1,8 +1,8 @@
 +++
-title = "Hugo is for lovers"
+title = "【決定！！】21stシングル「ジコチューで行こう！」リリース記念 乃木坂46×CDショップチェーン コラボレーションキャンペーン！"
 date = "2015-08-03T13:39:46+02:00"
 tags = ["hugo"]
-categories = ["pseudo"]
+categories = ["RELEASE"]
 banner = "img/banners/banner-3.jpg"
 +++
 

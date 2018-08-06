@@ -1,8 +1,8 @@
 +++
-title = "Linked post"
+title = "「真夏の全国ツアー2018〜6th YEAR BIRTHDAY LIVE〜」東京メトロ「乃木坂駅」でのパネル掲出が決定！"
 date = "2015-10-02T21:49:20+02:00"
 tags = ["golang", "programming", "theme", "hugo"]
-categories = ["programming"]
+categories = ["OTHER"]
 banner = "img/banners/banner-4.jpg"
 author = "John Doe"
 +++

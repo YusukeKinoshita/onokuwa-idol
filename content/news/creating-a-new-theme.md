@@ -1,8 +1,8 @@
 +++
-title = "Creating a new theme"
+title = "＜次回予告＞「乃木坂工事中」"
 date = "2015-06-24T13:50:46+02:00"
 tags = ["theme"]
-categories = ["starting"]
+categories = ["MEDIA"]
 banner = "img/banners/banner-1.jpg"
 +++
 

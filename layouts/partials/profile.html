@@ -13,29 +13,23 @@
                   {{ .Site.Params.profile.subtitle | markdownify }}
                 </p>
 
-                <!-- *** profile CAROUSEL *** -->
+                {{ range .Site.Data.profile }}
+                  <div class="col-md-3 col-sm-6">
+                      <div class="box-image-text profile">
+                          <div class="top">
+                              <div class="image" style="overflow:hidden">
+                                  <img class="" alt="" src="{{ .avatar | absURL }}">
+                              </div>
+                          </div>
+                          <div class="content">
+                              <h4>{{ .name }}</h4>
+                              <p class="intro">{{ .text | markdownify }}</p>
+                          </div>
+                      </div>
+                      <!-- /.box-image-text -->
 
-                <ul class="owl-carousel profiles same-height-row">
-                    {{ range .Site.Data.profile }}
-                    <li class="item">
-                        <div class="profile same-height-always">
-                            <div class="text">
-                                <p>{{ .text | markdownify }}</p>
-                            </div>
-                            <div class="bottom">
-                                <div class="icon"><i class="fa fa-quote-left"></i>
-                                </div>
-                                <div class="name-picture">
-                                    <img class="" alt="" src="{{ .avatar | absURL }}">
-                                    <h5>{{ .name }}</h5>
-                                    <p>{{ .position }}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    {{ end }}
-                </ul>
-                <!-- /.owl-carousel -->
+                  </div>
+                  {{ end }}
 
                 <!-- *** profile CAROUSEL END *** -->
             </div>

@@ -1,8 +1,8 @@
 +++
-title = "Go is for lovers"
+title = "乃木坂46 真夏の全国ツアー2018　＜大阪＞ヤンマースタジアム長居公演 チケット発売中！"
 date = "2015-09-17T13:47:08+02:00"
 tags = ["go"]
-categories = ["programming"]
+categories = ["LIVE/EVENT"]
 banner = "img/banners/banner-2.jpg"
 +++
 

@@ -1286,44 +1286,6 @@ fieldset[disabled] .btn-template-primary.active {
   color: #999999;
   margin-bottom: 40px;
 }
-.profiles .item .profile .bottom {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 20px;
-  height: 50px;
-}
-.profiles .item .profile .bottom .icon {
-  color: #38a7bb;
-  font-size: 30px;
-  float: left;
-  width: 20%;
-}
-.profiles .item .profile .name-picture {
-  float: right;
-  width: 80%;
-  text-align: right;
-}
-.profiles .item .profile .name-picture h5 {
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-.profiles .item .profile .name-picture p {
-  color: #999999;
-  margin: 0;
-  font-size: 12px;
-}
-.profiles .item .profile .name-picture img {
-  float: right;
-  width: 60px;
-  border-radius: 30px;
-  margin-left: 10px;
-}
 .team-member {
   text-align: center;
   margin-bottom: 40px;
@@ -3529,7 +3491,7 @@ a.list-group-item.active > .badge,
 /*!
  * Yamm!3 - Yet another megamenu for Bootstrap 3
  * http://geedmo.github.com/yamm3
- * 
+ *
  * @geedmo - Licensed under the MIT license
  */
 .yamm .nav,
