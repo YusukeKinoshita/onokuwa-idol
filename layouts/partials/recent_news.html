@@ -20,11 +20,13 @@
                 <div class="col-md-12 col-sm-6">
                     <div class="box-image-text news">
                         <div class="content">
-                            <h4>
-                              <span class="author-category">{{ i18n "publishedOn" }} {{ .Date.Format .Site.Params.date_format }}</span>
-                              {{ index .Params.categories 0 }}
+                            <div>
+                                <span class="author-category">{{ i18n "publishedOn" }} {{ .Date.Format .Site.Params.date_format }}</span>
+                                <span class="category {{ index .Params.categories 0 }}">{{ index .Params.categories 0 }}</span>
+                            </div>
+                            <h3>
                               <a href="{{ .Permalink }}">{{ .Title }}</a>
-                            </h4>
+                            </h3>
                             <p class="intro">{{ .Summary }}</p>
                         </div>
                     </div>

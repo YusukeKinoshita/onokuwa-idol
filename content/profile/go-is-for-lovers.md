@@ -1,9 +1,9 @@
 +++
-title = "乃木坂46 真夏の全国ツアー2018　＜大阪＞ヤンマースタジアム長居公演 チケット発売中！"
-date = "2015-09-17T13:47:08+02:00"
+title = "Go is for lovers"
+name = "衛藤美彩"
 tags = ["go"]
-categories = ["LIVE"]
-banner = "img/banners/banner-2.jpg"
+categories = ["RADIO"]
+image = "img/profile/misamisa.jpeg"
 +++
 
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for

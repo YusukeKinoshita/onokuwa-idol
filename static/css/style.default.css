@@ -2111,6 +2111,27 @@ fieldset[disabled] .btn-template-primary.active {
 .box-image-text.news .author-category a {
   font-weight: 500;
 }
+.box-image-text.news .category {
+  display: inline-block;
+  border: 1px solid;
+  padding: 8px 16px;
+  margin-left: 8px;
+}
+.box-image-text.news .category.MEDIA {
+  color: #A6ED94;
+}
+.box-image-text.news .category.LIVE {
+  color: #F8C68B;
+}
+.box-image-text.news .category.EVENT {
+  color: #F58DC5;
+}
+.box-image-text.news .category.RELEASE {
+  color: #D9A0EB;
+}
+.box-image-text.news .category.OTHER {
+  color: #C9C9C9;
+}
 .box-image-text.news .intro {
   text-align: left;
   margin-bottom: 20px;

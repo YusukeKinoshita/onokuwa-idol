@@ -29,7 +29,6 @@ paginate = 10
 
 [[menu.main]]
     name = "Profile"
-    identifier = "profile"
     url  = "/profile/"
     weight = 3
 
@@ -114,6 +113,7 @@ paginate = 10
 [Permalinks]
     news = "/news/:year/:month/:day/:filename/"
     schedule = "/schedule/:year/:month/:day/:filename/"
+    profile = "/profile/:filename/"
 
 # Enable or disable top bar with social icons
 [params.topbar]

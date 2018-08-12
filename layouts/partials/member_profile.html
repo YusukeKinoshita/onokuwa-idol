@@ -5,21 +5,27 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>{{ .Site.Params.profile.title }}</h2>
+                </div>
+
                 <p class="lead">
                   {{ .Site.Params.profile.subtitle | markdownify }}
                 </p>
 
-                {{ range .Site.Data.profile }}
+                {{ range first 4 (where .Data.Pages "Type" "profile") }}
                   <div class="col-md-3 col-sm-6">
                       <div class="box-image-text profile">
                           <div class="top">
                               <div class="image" style="overflow:hidden">
-                                  <img class="" alt="" src="{{ .avatar | absURL }}">
+                                  <a href="{{ .Permalink }}">
+                                      <img src="{{ .Site.BaseURL}}{{ .Params.image }}" class="img-responsive" alt="">
+                                  </a>
                               </div>
                           </div>
                           <div class="content">
-                              <h4>{{ .name }}</h4>
-                              <p class="intro">{{ .text | markdownify }}</p>
+                              <h4>{{ .Name }}</h4>
+                              <p class="intro"></p>
                           </div>
                       </div>
                       <!-- /.box-image-text -->
