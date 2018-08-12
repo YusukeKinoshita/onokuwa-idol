@@ -20,41 +20,19 @@
 
                 <div class="row">
 
-                    <!-- *** LEFT COLUMN *** -->
+                    <div class="col-md-12" id="news-post">
 
-                    <div class="col-md-9" id="news-post">
-
-                        <p class="text-muted text-uppercase mb-small text-right">{{ .Date.Format .Site.Params.date_format }}</p>
+                        <div class="box-image-text news">
+                            <span class="author-category">{{ i18n "publishedOn" }} {{ .Date.Format .Site.Params.date_format }}</span>
+                            <span class="category {{ index .Params.categories 0 | lower }}">{{ index .Params.categories 0 }}</span>
+                        </div>
 
                         <div id="post-content">
                           {{ .Content }}
                         </div>
-                        <!-- /#post-content -->
-                        {{ if .Site.DisqusShortname }}
-                        <div id="comments">
-                            {{ template "_internal/disqus.html" . }}
-                        </div>
-                        {{ end }}
 
                     </div>
                     <!-- /#news-post -->
-
-                    <!-- *** LEFT COLUMN END *** -->
-
-                    <!-- *** RIGHT COLUMN *** -->
-
-                    <div class="col-md-3">
-
-                        <!-- *** MENUS AND WIDGETS *** -->
-
-                        {{ partial "sidebar.html" . }}
-
-                        <!-- *** MENUS AND FILTERS END *** -->
-
-                    </div>
-                    <!-- /.col-md-3 -->
-
-                    <!-- *** RIGHT COLUMN END *** -->
 
                 </div>
                 <!-- /.row -->

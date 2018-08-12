@@ -1535,7 +1535,6 @@ fieldset[disabled] .btn-template-primary.active {
 .box-image-text {
   position: relative;
   overflow: hidden;
-  text-align: center;
   margin: 15px 0;
 }
 .box-image-text .top {
@@ -1594,6 +1593,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .box-image-text .content h3,
 .box-image-text .content h4 {
+  font-size: 18px;
   text-transform: uppercase;
   line-height: 1.5;
   color: #555555;
@@ -2024,7 +2024,6 @@ fieldset[disabled] .btn-template-primary.active {
   color: #38a7bb;
 }
 #news-listing-medium .post .author-category {
-  float: left;
   color: #999999;
   text-transform: uppercase;
   font-weight: 300;
@@ -2117,24 +2116,27 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 8px 16px;
   margin-left: 8px;
 }
-.box-image-text.news .category.MEDIA {
+.box-image-text.news .category.media {
   color: #A6ED94;
 }
-.box-image-text.news .category.LIVE {
+.box-image-text.news .category.live {
   color: #F8C68B;
 }
-.box-image-text.news .category.EVENT {
+.box-image-text.news .category.event {
   color: #F58DC5;
 }
-.box-image-text.news .category.RELEASE {
+.box-image-text.news .category.release {
   color: #D9A0EB;
 }
-.box-image-text.news .category.OTHER {
+.box-image-text.news .category.other {
   color: #C9C9C9;
 }
 .box-image-text.news .intro {
   text-align: left;
   margin-bottom: 20px;
+}
+.box-image-text.profile img {
+  width: 100%;
 }
 #news-homepage .post {
   margin-bottom: 30px;
