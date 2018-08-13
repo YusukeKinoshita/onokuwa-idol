@@ -1,4 +1,5 @@
-baseurl = "https://example.org"
+baseurl = "https://yusukekinoshita.github.io/hugotest"
+canonifyurls = true
 title = "Universal"
 theme = "hugo-universal-theme"
 themesDir = "themes"
