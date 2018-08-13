@@ -9,9 +9,8 @@
                     <h2>{{ .Site.Params.profile.title }}</h2>
                 </div>
 
-                <p class="lead">
-                  {{ .Site.Params.profile.subtitle | markdownify }}
-                </p>
+                <p class="lead">{{ .Site.Params.profile.concept | markdownify }}</p>
+                <p class="lead">{{ .Site.Params.profile.overview | markdownify }}</p>
 
                 {{ range first 4 (where .Data.Pages "Type" "profile") }}
                   <div class="col-md-3 col-sm-6">

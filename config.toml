@@ -98,15 +98,7 @@ paginate = 10
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
-      </p>
-      """
+    address = """<p><strong>Universal Ltd.</strong> 13/25 New Avenue Newtown upon River 45Y 73J England <strong>Great Britain</strong></p>"""
     latitude = "-12.043333"
     longitude = "-77.028333"
 
@@ -148,7 +140,8 @@ paginate = 10
     # at 'exampleSite/data/profile'.
     # For more informtion take a look at the README.
     title = "profile"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    concept = "「誰もいない僕だけの世界 それぞれのコンパスを持って新たな世界を切り開いていく」"
+    overview = "洗練されたビジュアル×スタイリッシュなサウンドを掲げる ４人組女性アイドルグループ"
 
 [params.see_more]
     enable = true
